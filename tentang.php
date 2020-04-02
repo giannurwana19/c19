@@ -16,11 +16,11 @@ require "header.php";
     </button>
     <div class="collapse navbar-collapse font-weight-bold" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active mx-2" href="#home">Beranda <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link mx-2" href="#indonesia">Indonesia</a>
-        <a class="nav-item nav-link mx-2" href="#provinsi">Provinsi</a>
-        <a class="nav-item nav-link mx-2" href="#dunia">Dunia</a>
-        <a class="nav-item nav-link mx-2" href="#tentang">Tentang</a>
+        <a class="nav-item nav-link active mx-2" href="index.php/#home">Beranda <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link mx-2" href="index.php/#indonesia">Indonesia</a>
+        <a class="nav-item nav-link mx-2" href="index.php/#provinsi">Provinsi</a>
+        <a class="nav-item nav-link mx-2" href="index.php/#dunia">Dunia</a>
+        <a class="nav-item nav-link mx-2" href="index.php/#tentang">Tentang</a>
       </div>
     </div>
 

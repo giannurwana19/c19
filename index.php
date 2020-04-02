@@ -196,7 +196,7 @@ require "json.php";
     </div>
 
     <div class="img">
-      <img src="img/rumahsakit.jpg" style="display: block; margin:auto;" class="info" alt="">
+      <img src="img/rumahsakit.jpg" style="display: block; margin:auto;" class="info img-fluid" alt="">
     </div>
 
   </div>
