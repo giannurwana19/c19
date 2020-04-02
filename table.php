@@ -19,7 +19,9 @@
 
   <style>
     .table-style {
-      margin: 60px;
+      margin: 10px;
+      margin-right: 100px;
+      margin-left: 100px;
       box-shadow: 0 15px 30px rgba(102, 113, 228, 0.13);
       padding: 50px;
     }
@@ -63,9 +65,9 @@
           <tr>
             <td><?= $no; ?>.</td>
             <td><?= $d['attributes']['Country_Region']; ?></td>
-            <td><?= $d['attributes']['Confirmed']; ?></td>
-            <td><?= $d['attributes']['Deaths']; ?></td>
-            <td><?= $d['attributes']['Recovered']; ?></td>
+            <td><?= number_format($d['attributes']['Confirmed']); ?></td>
+            <td><?= number_format($d['attributes']['Deaths']); ?></td>
+            <td><?= number_format($d['attributes']['Recovered']); ?></td>
           </tr>
           <?php $no++; ?>
         <?php endforeach; ?>
@@ -91,9 +93,9 @@
           <tr>
             <td><?= $no; ?>.</td>
             <td><?= $p['attributes']['Provinsi']; ?></td>
-            <td><?= $p['attributes']['Kasus_Posi']; ?></td>
-            <td><?= $p['attributes']['Kasus_Semb']; ?></td>
-            <td><?= $p['attributes']['Kasus_Meni']; ?></td>
+            <td><?= number_format($p['attributes']['Kasus_Posi']); ?></td>
+            <td><?= number_format($p['attributes']['Kasus_Semb']); ?></td>
+            <td><?= number_format($p['attributes']['Kasus_Meni']); ?></td>
           </tr>
           <?php $no++; ?>
         <?php endforeach; ?>
