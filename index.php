@@ -66,7 +66,7 @@ require "json.php";
     <?php foreach ($indo as $ina) : ?>
       <div class="row text-center">
         <div class="col-lg mb-3">
-          <div class="card text-white" style="background-color: #fd9644">
+          <div class="card text-white aksi" style="background-color: #fd9644">
             <div class="card-body">
               <img src="img/positif.png" width="100" class="mb-4" alt="">
               <h4 class="card-title">Positif</h5>
@@ -75,7 +75,7 @@ require "json.php";
           </div>
         </div>
         <div class="col-lg mb-3">
-          <div class="card text-white" style="background-color: #26de81">
+          <div class="card text-white aksi" style="background-color: #26de81">
             <div class="card-body">
               <img src="img/senang.png" width="100" class="mb-4" alt="">
               <h4 class="card-title">Sembuh</h5>
@@ -84,7 +84,7 @@ require "json.php";
           </div>
         </div>
         <div class="col-lg mb-3">
-          <div class="card text-white" style="background-color: #fc5c65">
+          <div class="card text-white aksi" style="background-color: #fc5c65">
             <div class="card-body">
               <img src="img/meninggal.png" width="100" class="mb-4" alt="">
               <h4 class="card-title">Meninggal</h4>
@@ -187,7 +187,7 @@ require "json.php";
 <section class="py-5" id="info">
   <div class="container py-5">
 
-    <div class="row mb-3">
+    <div class="row mb-5">
       <div class="col text-center">
         <h1 class="font-weight-bold">INFO RUMAH SAKIT</h1>
         <p class="lead mb-2">Daftar 100 Rumah Sakit Rujukan Penanganan virus COVID-19 di Indonesia</p>

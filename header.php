@@ -48,6 +48,27 @@
 
 
   <title>Tuntas Corona - Live Data kasus Corona di Dunia & Indonesia </title>
+
+  <style>
+    .aksi{
+      transition: .3s;
+    }
+
+    .img-fluid{
+      transition: .5s;
+    }
+
+    .aksi:hover {
+      transform: scale(1.02);
+      cursor: pointer;
+      box-shadow: 3px 10px 20px gray;
+    }
+    .img-fluid:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  </style>
+
 </head>
 
 <body>
