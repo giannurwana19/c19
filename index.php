@@ -126,9 +126,9 @@ require "json.php";
             <tr>
               <td><?= $no; ?>.</td>
               <td><?= $p['attributes']['Provinsi']; ?></td>
-              <td><?= number_format($p['attributes']['Kasus_Posi']); ?></td>
-              <td><?= number_format($p['attributes']['Kasus_Semb']); ?></td>
-              <td><?= number_format($p['attributes']['Kasus_Meni']); ?></td>
+              <td><?= number_format($p['attributes']['Kasus_Posi'],0,'.',','); ?></td>
+              <td><?= number_format($p['attributes']['Kasus_Semb'],0,'.',','); ?></td>
+              <td><?= number_format($p['attributes']['Kasus_Meni'],0,'.',','); ?></td>
             </tr>
             <?php $no++; ?>
           <?php endforeach; ?>
@@ -164,13 +164,13 @@ require "json.php";
         </thead>
         <tbody>
           <?php $no = 1; ?>
-          <?php foreach ($provinsi as $p) : ?>
+          <?php foreach ($dunia as $d) : ?>
             <tr>
               <td><?= $no; ?>.</td>
-              <td><?= $p['attributes']['Provinsi']; ?></td>
-              <td><?= number_format($p['attributes']['Kasus_Posi']); ?></td>
-              <td><?= number_format($p['attributes']['Kasus_Semb']); ?></td>
-              <td><?= number_format($p['attributes']['Kasus_Meni']); ?></td>
+              <td><?= $d['attributes']['Country_Region']; ?></td>
+              <td><?= number_format($d['attributes']['Confirmed'],0,'.',','); ?></td>
+              <td><?= number_format($d['attributes']['Recovered'],0,'.',','); ?></td>
+              <td><?= number_format($d['attributes']['Deaths'],0,'.',','); ?></td>
             </tr>
             <?php $no++; ?>
           <?php endforeach; ?>
