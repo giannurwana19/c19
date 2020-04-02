@@ -1,6 +1,5 @@
   <?php
 
-
   $data = file_get_contents('https://api.kawalcorona.com/');
   $dunia = json_decode($data, true);
 

@@ -11,7 +11,7 @@ require "json.php";
   <div class="container">
 
     <a class="navbar-brand font-weight-bold" href="#">
-      <h2 class="font-weight-bold m-0">Sidak Corona</h2>
+      <h2 class="font-weight-bold m-0">Tuntas Corona</h2>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,6 @@ require "json.php";
         <a class="nav-item nav-link mx-2" href="#provinsi">Provinsi</a>
         <a class="nav-item nav-link mx-2" href="#dunia">Dunia</a>
         <a class="nav-item nav-link mx-2" href="#info">Info Rumah Sakit</a>
-        <a class="nav-item nav-link mx-2" href="tentang.php" target="blank">Tentang</a>
       </div>
     </div>
 
@@ -37,7 +36,7 @@ require "json.php";
     <div class="row align-items-center">
 
       <div class="col-md-7 col-lg-6 order-2 order-md-1">
-        <h1 class="font-weight-bold">Ayo Kita Sidak Corona! </h1>
+        <h1 class="font-weight-bold">Ayo Kita Tuntaskan Corona! </h1>
         <p class="text-justify">Live data persebaran Virus Corona atau COVID-19 di Dunia. Data di website ini akan selalu ter <b><i>update</i></b> secara <b><i>real-time</i></b>.</p>
         <p class="text-justify"><b><i>Tetap dirumah</i></b> dan <b><i>ikuti kebijakan</i></b> yang telah ditetapkan pemerintah menjadi kunci agar Indonesia terbebas dari Corona!</p>
         <h4 class="font-weight-bold">#dirumahAja</h4>
@@ -211,7 +210,7 @@ require "json.php";
         <a href="https://facebook.com/gian.nurwana/" target="blank"><i class="fab fa-facebook fa-2x mx-2 text-white"></i></a>
         <a href="https://instagram.com/gian_san19" target="blank"><i class="fab fa-instagram fa-2x mx-2 text-white"></i></a>
         <a href="https://github.com/giannurwana19" target="blank"><i class="fab fa-github fa-2x mx-2 text-white"></i></a>
-        <p class="lead mt-3 text-muted">&copy; Copyright 2020 | Gian Nurwana</p>
+        <p class="lead mt-3 text-white">&copy; Copyright 2020 | Gian Nurwana & data API <a href="https://kawalcorona.com" class="text-white">kawalcorona.com</a></p>
       </div>
     </div>
   </div>

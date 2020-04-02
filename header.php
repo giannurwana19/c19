@@ -4,8 +4,8 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="keyword" content="">
+  <meta name="description" content="Live data persebaran Virus Corona atau COVID-19 di Dunia">
+  <meta name="keyword" content="Data Corona, Informasi Data Corona, kawalcorona.com, jumlah passien corona, data corona terbaru, Informasi COVID-19">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
@@ -47,7 +47,7 @@
   <script src="https://kit.fontawesome.com/747cae3cfa.js" crossorigin="anonymous"></script>
 
 
-  <title>Sidak Corona - Live Data kasus Corona di Dunia & Indonesia </title>
+  <title>Tuntas Corona - Live Data kasus Corona di Dunia & Indonesia </title>
 </head>
 
 <body>
