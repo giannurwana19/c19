@@ -67,6 +67,14 @@
       transform: scale(1.05);
       cursor: pointer;
     }
+
+    .fab{
+      transition: 0.3s;
+    }
+
+    .fab:hover{
+      transform: scale(1.2);
+    }
   </style>
 
 </head>
