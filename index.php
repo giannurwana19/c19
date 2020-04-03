@@ -37,8 +37,7 @@ require "json.php";
 
       <div class="col-md-7 col-lg-6 order-2 order-md-1">
         <h1 class="font-weight-bold">Ayo Kita Tuntaskan Corona! </h1>
-        <p class="text-justify">Live data persebaran Virus Corona atau COVID-19 di Dunia. Data di website ini akan selalu ter <b><i>update</i></b> secara <b><i>real-time</i></b>.</p>
-        <p class="text-justify"><b><i>Tetap dirumah</i></b> dan <b><i>ikuti kebijakan</i></b> yang telah ditetapkan pemerintah menjadi kunci agar Indonesia terbebas dari Corona!</p>
+        <p class="text-justify">Live data persebaran Virus Corona atau COVID-19 di Dunia. <b><i>Tetap dirumah</i></b> dan <b><i>ikuti kebijakan</i></b> yang telah ditetapkan pemerintah menjadi kunci agar <b><i><u>Indonesia terbebas dari Corona!</u></i></b></p>
         <h4 class="font-weight-bold">#dirumahAja</h4>
         <a href="#indonesia" class="btn btn-info font-weight-bold px-4 mt-3 mr-3 rounded-0">Data Indonesia</a>
         <a href="#dunia" class="btn btn-outline-info font-weight-bold px-4 mt-3 rounded-0">Data Dunia</a>
@@ -93,8 +92,8 @@ require "json.php";
           </div>
         </div>
       </div>
+    <?php endforeach; ?>
   </div>
-<?php endforeach; ?>
 </section>
 <!-- end section indonesia -->
 
@@ -126,9 +125,9 @@ require "json.php";
             <tr>
               <td><?= $no; ?>.</td>
               <td><?= $p['attributes']['Provinsi']; ?></td>
-              <td><?= number_format($p['attributes']['Kasus_Posi'],0,'.',','); ?></td>
-              <td><?= number_format($p['attributes']['Kasus_Semb'],0,'.',','); ?></td>
-              <td><?= number_format($p['attributes']['Kasus_Meni'],0,'.',','); ?></td>
+              <td><?= number_format($p['attributes']['Kasus_Posi'], 0, '.', ','); ?></td>
+              <td><?= number_format($p['attributes']['Kasus_Semb'], 0, '.', ','); ?></td>
+              <td><?= number_format($p['attributes']['Kasus_Meni'], 0, '.', ','); ?></td>
             </tr>
             <?php $no++; ?>
           <?php endforeach; ?>
@@ -151,7 +150,38 @@ require "json.php";
       </div>
     </div>
 
-    <div class="table-style">
+    <div class="row text-center">
+      <div class="col-lg mb-3">
+        <div class="card text-white aksi" style="background-color: #f0932b">
+          <div class="card-body">
+            <img src="img/positif.png" width="100" class="mb-4" alt="">
+            <h4 class="card-title"><?= $positif['name']; ?></h5>
+              <h5 class="card-subtitle mb-2 "><?= $positif['value'];; ?> Orang</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg mb-3">
+        <div class="card text-white aksi" style="background-color: #16a085">
+          <div class="card-body">
+            <img src="img/senang.png" width="100" class="mb-4" alt="">
+            <h4 class="card-title"><?= $sembuh['name']; ?></h5>
+              <h5 class="card-subtitle mb-2 "><?= $sembuh['value'];; ?> Orang</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg mb-3">
+        <div class="card text-white aksi" style="background-color: #eb4d4b">
+          <div class="card-body">
+            <img src="img/meninggal.png" width="100" class="mb-4" alt="">
+            <h4 class="card-title"><?= $meninggal['name']; ?></h4>
+            <h5 class="card-subtitle mb-2 "><?= $meninggal['value'];; ?> Orang</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="table-style mt-3">
       <table id="example" class="table table-bordered table-hover" style="width: 100%;">
         <thead>
           <tr>
@@ -168,9 +198,9 @@ require "json.php";
             <tr>
               <td><?= $no; ?>.</td>
               <td><?= $d['attributes']['Country_Region']; ?></td>
-              <td><?= number_format($d['attributes']['Confirmed'],0,'.',','); ?></td>
-              <td><?= number_format($d['attributes']['Recovered'],0,'.',','); ?></td>
-              <td><?= number_format($d['attributes']['Deaths'],0,'.',','); ?></td>
+              <td><?= number_format($d['attributes']['Confirmed'], 0, '.', ','); ?></td>
+              <td><?= number_format($d['attributes']['Recovered'], 0, '.', ','); ?></td>
+              <td><?= number_format($d['attributes']['Deaths'], 0, '.', ','); ?></td>
             </tr>
             <?php $no++; ?>
           <?php endforeach; ?>
