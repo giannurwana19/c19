@@ -18,9 +18,6 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/rowreorder/1.2.6/css/rowReorder.bootstrap4.min.css" />
   <!-- end data table -->
 
-  <!-- my css -->
-  <link rel="stylesheet" href="style.css">
-
   <!-- favicon -->
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
