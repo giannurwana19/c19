@@ -239,7 +239,7 @@ require "json.php";
       <div class="col text-center">
         <div class="icon mb-3">
           <a href="https://facebook.com/gian.nurwana/" target="blank"><i class="fab fa-facebook fa-2x mx-2 text-white"></i></a>
-          <a href="https://instagram.com/gian_san19" target="blank"><i class="fab fa-instagram fa-2x mx-2 text-white"></i></a>
+          <a href="https://instagram.com/gian_nurwana19" target="blank"><i class="fab fa-instagram fa-2x mx-2 text-white"></i></a>
           <a href="https://github.com/giannurwana19" target="blank"><i class="fab fa-github fa-2x mx-2 text-white"></i></a>
         </div>
         <p><a class=" mt-3 text-white">&copy; Copyright 2020 | Gian Nurwana & data API <a href="https://kawalcorona.com" class="text-white">kawalcorona.com</a></p>
