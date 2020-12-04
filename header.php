@@ -47,6 +47,9 @@
   <title>Tuntas Corona - Live Data kasus Corona di Dunia & Indonesia </title>
 
   <style>
+    * {
+      scroll-behavior: smooth;
+    }
     .aksi{
       transition: .3s;
     }
